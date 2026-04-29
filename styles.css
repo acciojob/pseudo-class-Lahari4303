@@ -2,13 +2,13 @@
 #container{
 	margin:20px;
 }
-#container p::before {
+#container::before {
     content: "Before Element ";
     color: red;
     font-size: 20px;
 }
 
-#container p::after {
+#container::after {
     content: " After Element";
     color: red;
     font-size: 20px;
